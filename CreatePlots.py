@@ -57,7 +57,7 @@ def plot_dimensionality_reduction(save_figure=False):
 
 
 def main():
-    plot_dimensionality_reduction(True)
+    plot_dimensionality_reduction(False)
 
 
 if __name__ == "__main__":

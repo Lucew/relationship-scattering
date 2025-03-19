@@ -3,6 +3,8 @@ pandas
 numpy
 scikit-learn
 umap-learn
+threadpoolctl
+scipy
 
 # plotting libraries
 matplotlib
