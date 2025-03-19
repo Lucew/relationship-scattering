@@ -1,0 +1,9 @@
+tqdm
+pandas
+numpy
+scikit-learn
+umap-learn
+
+# plotting libraries
+matplotlib
+seaborn
