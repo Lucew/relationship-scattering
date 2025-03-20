@@ -41,6 +41,7 @@ def plot_dimensionality_reduction(save_figure=False):
     plt1.legend(ncol=len(order)//2+1, framealpha=1, loc="lower left")
     [plt1.axvline(x + .5, color='k',linestyle="--") for x in plt1.get_xticks()]
     plt.grid(axis="y")
+    plt.tight_layout()
     if save_figure:
         plt.savefig('trustworthiness.pgf')
 
@@ -50,6 +51,7 @@ def plot_dimensionality_reduction(save_figure=False):
     [plt2.axvline(x + .5, color='k', linestyle="--") for x in plt2.get_xticks()]
     plt2.legend(ncol=len(order)//2+1, framealpha=1, loc="lower left")
     plt.grid(axis="y")
+    plt.tight_layout()
     if save_figure:
         plt.savefig('triplet_accuracy.pgf')
     else:
