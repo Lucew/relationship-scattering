@@ -188,6 +188,7 @@ fabric.properties
 # folders starting with csv_
 csv_*/
 test/
+PLANT_ESST_1d_cp_correlation_window_1.csv
 
 # ignore the plots
 *.pgf
